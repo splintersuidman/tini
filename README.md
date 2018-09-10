@@ -1,4 +1,4 @@
-# tini
+# tini [![Build Status](https://travis-ci.org/splintah/tini.svg?branch=master)](https://travis-ci.org/splintah/tini)
 
 tini — **T**here **I**s **N**o **I**nfix — is a tiny functional programming language.
 

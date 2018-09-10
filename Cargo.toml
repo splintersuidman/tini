@@ -4,6 +4,11 @@ version = "0.1.0"
 authors = ["Splinter Suidman (splintah)"]
 license = "MIT"
 edition = "2018"
+repository = "https://github.com/splintah/tini"
+readme = "README.md"
+
+[badges]
+travis-ci = { repository = "splintah/tini", branch = "master" }
 
 [[bin]]
 name = "tinii"
