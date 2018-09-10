@@ -1,0 +1,8 @@
+; This example calculates n!, the factorial of n.
+
+(define (fac n)
+        (if (= n 1)
+            1
+            (* n (fac (- n 1)))))
+
+(print (fac 6)) ; Prints 720

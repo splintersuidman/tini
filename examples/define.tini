@@ -1,0 +1,16 @@
+; This example shows how define expressions are formed:
+;   (define name value)
+; or
+;   (define (function argument argument argument ...) value)
+
+(define n 0)
+(define m 1)
+
+(print n) ; Prints 0
+(print m) ; Prints 1
+
+(define (isZero val)
+        (= val 0))
+
+(print (isZero n)) ; Prints 1
+(print (isZero m)) ; Prints 0

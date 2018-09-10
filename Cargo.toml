@@ -1,0 +1,16 @@
+[package]
+name = "tini"
+version = "0.1.0"
+authors = ["Splinter Suidman (splintah)"]
+license = "MIT"
+edition = "2018"
+
+[[bin]]
+name = "tinii"
+path = "./src/bin/tinii.rs"
+
+[[bin]]
+name = "tini-repl"
+path = "./src/bin/repl.rs"
+
+[dependencies]

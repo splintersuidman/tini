@@ -1,0 +1,14 @@
+; This example shows how if expressions are formed:
+;   (if condition consequence alternative)
+
+(define n 0)
+; Prints 1
+(if (= n 0)
+    (print 1)
+    (print 0))
+
+; Prints 0
+(define m 1)
+(if (= m 0)
+    (print 1)
+    (print 0))
