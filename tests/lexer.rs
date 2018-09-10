@@ -6,9 +6,9 @@ fn lexer_test() {
     use crate::TokenType::*;
 
     let input = r#"
-    (if (= (+ 1 2 3 4 5) 15)
-        (print "Yeah")
-        (print "Nope"))
+    (if (= (+ 1 2) 3)
+        (print 1)
+        (print 0))
     "#;
 
     let tokens = [
@@ -20,19 +20,16 @@ fn lexer_test() {
         Identifier("+".to_string()),
         Integer(1),
         Integer(2),
+        RightBracket,
         Integer(3),
-        Integer(4),
-        Integer(5),
-        RightBracket,
-        Integer(15),
         RightBracket,
         LeftBracket,
         Identifier("print".to_string()),
-        String("Yeah".to_string()),
+        Integer(1),
         RightBracket,
         LeftBracket,
         Identifier("print".to_string()),
-        String("Nope".to_string()),
+        Integer(0),
         RightBracket,
         RightBracket,
     ];
