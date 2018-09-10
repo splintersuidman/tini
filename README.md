@@ -1,6 +1,6 @@
 # tini
 
-`tini` — **T**here **I**s **N**o **I**nfix — is a tiny functional programming language.
+tini — **T**here **I**s **N**o **I**nfix — is a tiny functional programming language.
 
 The only two data types supported are integers and functions.
 
@@ -8,11 +8,11 @@ The only two data types supported are integers and functions.
 
 This crate contains two binaries: `repl` and `tinii`.
 `tini-repl` contains a ‘run - eval - print - loop’ interface that evaluates single lines of
-`tini`.
-`tinii` runs the `tini` code inside the file supplied at the command line.
+tini.
+`tinii` runs the tini code inside the file supplied at the command line.
 
 After the code has been installed (see [Installation]), run `tini-repl` or `tinii <file>` to
-evaluate `tini` code.
+evaluate tini code.
 
 ## Installation
 
@@ -119,7 +119,7 @@ See the directory `examples/` for more examples.
 
 ## Inspiration
 
-`tini`'s syntax is mostly inspired by [LISP].
+tini's syntax is mostly inspired by [LISP].
 
 ## Licence
 
