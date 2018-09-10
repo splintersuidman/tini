@@ -117,7 +117,15 @@ Output:
 
 See the directory `examples/` for more examples.
 
+## Inspiration
+
+`tini`'s syntax is mostly inspired by [LISP].
+
+## Licence
+
+This repository is licensed under the MIT licence; see the file `LICENCE`.
 
 [Installation]: #installation
 [Rust]: https://rust-lang.org
 [BNF]: https://en.wikipedia.org/wiki/Backus%E2%80%93Naur_form
+[LISP]: https://en.wikipedia.org/wiki/Lisp_(programming_language)
