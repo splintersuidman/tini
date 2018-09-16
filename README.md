@@ -18,7 +18,7 @@ evaluate tini code.
 
 Prerequisites:
 
-- Nightly [Rust] or newer with `cargo`
+- Nightly [Rust] 1.30 or newer with `cargo`
 
 ```bash
 cargo install --git https://github.com/splintah/tini
