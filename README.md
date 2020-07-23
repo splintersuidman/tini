@@ -21,7 +21,7 @@ Prerequisites:
 - Nightly [Rust] 1.30 or newer with `cargo`
 
 ```bash
-cargo install --git https://gitlab.com/splintah/tini
+cargo install --git https://github.com/splintah/tini
 ```
 
 ## Syntax
